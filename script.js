@@ -17,7 +17,7 @@ let isFocused = true;
 showProgress(studentName, daysComplete);
 showProgress("Rahul", 10);*/
 
-function checkStatus(name, days, focus) {
+/*function checkStatus(name, days, focus) {
     if (focus === true) {
         console.log(`Great job ${name}! You have perfectly completed ${days} days.`);
     } else {
@@ -28,4 +28,16 @@ function checkStatus(name, days, focus) {
 
 checkStatus(studentName, daysComplete, isFocused);
 
-checkStatus("rahul", 10, false);
+checkStatus("rahul", 10, false);*/
+
+let techStack = ["HTML","CSS","JavaScript","React","Node.js"];
+
+console.log("My Tech Stack list: ", techStack);
+
+console.log("Pahla Skill: ", techStack[0])
+
+console.log("---Starting the loop---");
+
+for(let i = 0;i < techStack.length;i++){
+    console.log(`Day${i + 1} Target: Master ${techStack[i]}`);
+}
