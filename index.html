@@ -3,22 +3,17 @@
 
 <head>
     <link rel="stylesheet" href="style.css">
-    <title></title>
+    <title>Smart Bill Tracker</title>
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="logo">Om's Portfolio</div>
-        <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-
-    <div>
-        <h1 id="status-text">System is offline</h1>
-        <button id="activate-btn">Activate System</button>
+    <div id="app-container">
+        <h1>Smart Bill Tracker</h1>
+        <input type="text" id="bill-name" placeholder="Enter bill name...">
+        <input type="number"  id="bill-amount" placeholder="Amount (rupee)">
+        <button id="add-btn">Add Bill</button>
+        <h2 id="total-amount">Total Outstanding: 0 </h2>
+        <ul id="bill-list"></ul>
     </div>
     <script src="script.js"></script>
 </body>
